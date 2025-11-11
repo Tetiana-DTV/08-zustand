@@ -2,8 +2,10 @@ import NoteForm from "@/components/NoteForm/NoteForm";
 import css from "./CreateNote.module.css";
 import { Metadata } from "next";
 
+
 const title = "Create Note";
 const description = "You can create a new note";
+
 
 export const metadata: Metadata = {
   title,
@@ -30,6 +32,7 @@ export const metadata: Metadata = {
     images: ["https://ac.goit.global/fullstack/react/notehub-og-meta.jpg"],
   },
 };
+
 
 export default function CreateNote() {
   return (
